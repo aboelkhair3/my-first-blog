@@ -1,22 +1,8 @@
-
-<html>
-    <title>amr's blog</title>
-<body>
-    <header><h1><a href=""> blogs </a></h1></header>
-    
-    <article>
-        <time>published: 1/17/2025 1:52 AM </time>
-        <h2><a href="">my first project</a></h2>
-        <p>i ma really so happy that i completed this project without any problems</p>
-
-    </article>
-    <article>
-        <time>published: 1/18/2025 12:00 pm</time>
-        <h2><a href=""> my second post</a></h2>
-        <p>how are u all ???!</p>
-        <time >published: 19/1/2025</time>
-    </article>
-
-    
-</body>
-</html>
+<header> <h1><a href="">blog posts</a></h1></header>
+{% for post in posts %}
+<article>
+    <h2><a href="">{{post.title}}</a></h2>
+    <time> {{post.published_date}}</time>
+    <p>{{post.text|linebreaksbr}}</p>
+</article>
+{% endfor %}
