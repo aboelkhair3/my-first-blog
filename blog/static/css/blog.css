@@ -1,5 +1,5 @@
 .page-header {
-    background-color: rgb(71, 80, 181);
+    background-color: rgb(61, 228, 72);
     margin-top: 0px;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -26,7 +26,7 @@
  .post-form input{width: 100%;}
  .topmenu,
  .topmenu:hover
- .topmenu:visited{color: #ffffff;
+ .topmenu:visited{color: #d12f2f;
     float: right;
     font-size: 26pt;
     margin-right: 20px;}
@@ -44,12 +44,27 @@
    color: #4a54c3;
    background-color: rgb(199, 222, 227);
    border-color: #9f521b;
-   margin-right: 1000px;
+   margin-right:20px,50px,20px,20px;
 }
 .btn-secondary:hover{
    
    color: #3ede5b;
    background-color: #e1c48b;
 }
-
+.new_post,
+.new_post:visited{
+   background-color: #e1c7b5;
+   color: aqua;
+   margin-left: 500px;
+}
+.new_post:hover{
+   color: brown;
+   background-color: rgb(207, 197, 216);
+}
+.top-menu,
+.top-menu:hover
+{
+   color: #9f521b;
+   background-color: #3ede5b;
+}
 
